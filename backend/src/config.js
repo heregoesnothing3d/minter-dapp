@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 99,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Main" },
     ],
@@ -26,8 +26,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1000,
-  height: 1000,
+  width: 3000,
+  height: 3000,
   smoothing: false,
 };
 
@@ -44,7 +44,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Sweet Selfies';
-const CONTRACT_SYMBOL = 'SWEET';
+const CONTRACT_SYMBOL = 'SS';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2F37ac29CBe9F99139a943904146440556CFf862';
 const TREASURY_ADDRESS = '0x2F37ac29CBe9F99139a943904146440556CFf862';
@@ -53,7 +53,7 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-20T4:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-15T4:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-07-15T11:30:48+00:00
